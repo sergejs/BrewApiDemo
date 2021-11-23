@@ -30,10 +30,19 @@
       },
       {
         "package": "LoadableImageView",
-        "repositoryURL": "https://github.com/sergejs/LoadableImage",
+        "repositoryURL": "https://github.com/Sergejs/LoadableImage.git",
         "state": {
           "branch": "main",
-          "revision": "150428fb20867be2bd508e96d3595c5cf123bac3",
+          "revision": "998674a3e115854be1fc88d2dc7213045954fdbf",
+          "version": null
+        }
+      },
+      {
+        "package": "ServiceContainer",
+        "repositoryURL": "https://github.com/Sergejs/ServiceContainer.git",
+        "state": {
+          "branch": "main",
+          "revision": "769febf991b1069d8790d23e0e701fd202c8e4a6",
           "version": null
         }
       },

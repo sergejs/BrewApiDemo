@@ -6,10 +6,7 @@ import PackageDescription
 let package = Package(
     name: "DesignSystem",
     platforms: [
-        .macOS(.v12),
         .iOS(.v13),
-        .watchOS(.v6),
-        .tvOS(.v13),
     ],
     products: [
         .library(
@@ -18,13 +15,15 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/Sergejs/ServiceContainer.git", .upToNextMajor(from: "0.0.1")),
+        .package(url: "https://github.com/Sergejs/ServiceContainer.git", .branch("main")),
+        .package(url: "https://github.com/Sergejs/LoadableImage.git", .branch("main"))
     ],
     targets: [
         .target(
             name: "DesignSystem",
             dependencies: [
                 .product(name: "ServiceContainer", package: "ServiceContainer"),
+                .product(name: "LoadableImageView", package: "LoadableImage"),
             ],
             resources: [
                 .process("Resources"),
