@@ -5,27 +5,27 @@
         "package": "Cache",
         "repositoryURL": "https://github.com/sergejs/cache.git",
         "state": {
-          "branch": null,
-          "revision": "75614c97184e719719f1984fb820c4c4d08a30b9",
-          "version": "0.0.5"
+          "branch": "main",
+          "revision": "8e2d7d973b31c7b35a4727d1f938c2629c0804ce",
+          "version": null
         }
       },
       {
         "package": "Encryptable",
         "repositoryURL": "https://github.com/sergejs/encryptable.git",
         "state": {
-          "branch": null,
+          "branch": "main",
           "revision": "b3034ceb9ec62f40c3ab160a15c6e327238bbc18",
-          "version": "0.0.2"
+          "version": null
         }
       },
       {
         "package": "HTTPClient",
-        "repositoryURL": "https://github.com/sergejs/http-client.git",
+        "repositoryURL": "https://github.com/sergejs/HTTPClient.git",
         "state": {
-          "branch": null,
-          "revision": "fb6b5b57c16c2fc3bf50f1e783d85abfc0e6b266",
-          "version": "0.1.0"
+          "branch": "main",
+          "revision": "31fcf6b282bf7d890f2fa11ac8f081832e6d9ca8",
+          "version": null
         }
       },
       {
@@ -33,17 +33,26 @@
         "repositoryURL": "https://github.com/sergejs/LoadableImage",
         "state": {
           "branch": "main",
-          "revision": "150428fb20867be2bd508e96d3595c5cf123bac3",
+          "revision": "3e221ecc93b4e92cac1b1bb9b8f559db3d3330d1",
+          "version": null
+        }
+      },
+      {
+        "package": "ServiceContainer",
+        "repositoryURL": "https://github.com/Sergejs/ServiceContainer.git",
+        "state": {
+          "branch": "main",
+          "revision": "769febf991b1069d8790d23e0e701fd202c8e4a6",
           "version": null
         }
       },
       {
         "package": "Storable",
-        "repositoryURL": "https://github.com/sergejs/storable.git",
+        "repositoryURL": "https://github.com/sergejs/Storable.git",
         "state": {
-          "branch": null,
+          "branch": "main",
           "revision": "6dd62ab07582b4a9df7bb5bc750f3381a877278e",
-          "version": "0.0.1"
+          "version": null
         }
       }
     ]

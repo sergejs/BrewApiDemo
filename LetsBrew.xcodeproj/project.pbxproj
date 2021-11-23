@@ -12,6 +12,11 @@
 		12175351274C197500DFB845 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12175350274C197500DFB845 /* DetailsViewModel.swift */; };
 		12175355274C19BF00DFB845 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12175354274C19BF00DFB845 /* DetailsView.swift */; };
 		12175357274C1E6E00DFB845 /* DetailsImageSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12175356274C1E6E00DFB845 /* DetailsImageSheetView.swift */; };
+		1254A80F274D3D3400D38B56 /* Cache in Frameworks */ = {isa = PBXBuildFile; productRef = 1254A80E274D3D3400D38B56 /* Cache */; };
+		1254A812274D3D7900D38B56 /* Encryptable in Frameworks */ = {isa = PBXBuildFile; productRef = 1254A811274D3D7900D38B56 /* Encryptable */; };
+		1254A815274D3E0600D38B56 /* HTTPClient in Frameworks */ = {isa = PBXBuildFile; productRef = 1254A814274D3E0600D38B56 /* HTTPClient */; };
+		1254A818274D3E2100D38B56 /* ServiceContainer in Frameworks */ = {isa = PBXBuildFile; productRef = 1254A817274D3E2100D38B56 /* ServiceContainer */; };
+		1254A81B274D3E4100D38B56 /* Storable in Frameworks */ = {isa = PBXBuildFile; productRef = 1254A81A274D3E4100D38B56 /* Storable */; };
 		12A533AE274AAB980020B908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A533AD274AAB980020B908 /* AppDelegate.swift */; };
 		12A533B0274AAB980020B908 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A533AF274AAB980020B908 /* SceneDelegate.swift */; };
 		12A533B2274AAB980020B908 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A533B1274AAB980020B908 /* ViewController.swift */; };
@@ -64,9 +69,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1254A812274D3D7900D38B56 /* Encryptable in Frameworks */,
 				12A53400274AB7A00020B908 /* LoadableImageView in Frameworks */,
+				1254A80F274D3D3400D38B56 /* Cache in Frameworks */,
 				12A53408274AD2690020B908 /* Utilities in Frameworks */,
+				1254A81B274D3E4100D38B56 /* Storable in Frameworks */,
 				12A53406274AD2690020B908 /* DesignSystem in Frameworks */,
+				1254A818274D3E2100D38B56 /* ServiceContainer in Frameworks */,
+				1254A815274D3E0600D38B56 /* HTTPClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +204,11 @@
 				12A533FF274AB7A00020B908 /* LoadableImageView */,
 				12A53405274AD2690020B908 /* DesignSystem */,
 				12A53407274AD2690020B908 /* Utilities */,
+				1254A80E274D3D3400D38B56 /* Cache */,
+				1254A811274D3D7900D38B56 /* Encryptable */,
+				1254A814274D3E0600D38B56 /* HTTPClient */,
+				1254A817274D3E2100D38B56 /* ServiceContainer */,
+				1254A81A274D3E4100D38B56 /* Storable */,
 			);
 			productName = LetsBrew;
 			productReference = 12A533AA274AAB980020B908 /* LetsBrew.app */;
@@ -225,6 +240,11 @@
 			mainGroup = 12A533A1274AAB980020B908;
 			packageReferences = (
 				12A533FE274AB7A00020B908 /* XCRemoteSwiftPackageReference "LoadableImage" */,
+				1254A80D274D3D3400D38B56 /* XCRemoteSwiftPackageReference "cache" */,
+				1254A810274D3D7900D38B56 /* XCRemoteSwiftPackageReference "encryptable" */,
+				1254A813274D3E0600D38B56 /* XCRemoteSwiftPackageReference "HTTPClient" */,
+				1254A816274D3E2100D38B56 /* XCRemoteSwiftPackageReference "ServiceContainer" */,
+				1254A819274D3E4100D38B56 /* XCRemoteSwiftPackageReference "Storable" */,
 			);
 			productRefGroup = 12A533AB274AAB980020B908 /* Products */;
 			projectDirPath = "";
@@ -492,6 +512,46 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		1254A80D274D3D3400D38B56 /* XCRemoteSwiftPackageReference "cache" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sergejs/cache.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		1254A810274D3D7900D38B56 /* XCRemoteSwiftPackageReference "encryptable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sergejs/encryptable.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		1254A813274D3E0600D38B56 /* XCRemoteSwiftPackageReference "HTTPClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sergejs/HTTPClient.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		1254A816274D3E2100D38B56 /* XCRemoteSwiftPackageReference "ServiceContainer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sergejs/ServiceContainer.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		1254A819274D3E4100D38B56 /* XCRemoteSwiftPackageReference "Storable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sergejs/Storable.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		12A533FE274AB7A00020B908 /* XCRemoteSwiftPackageReference "LoadableImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sergejs/LoadableImage";
@@ -503,6 +563,31 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1254A80E274D3D3400D38B56 /* Cache */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1254A80D274D3D3400D38B56 /* XCRemoteSwiftPackageReference "cache" */;
+			productName = Cache;
+		};
+		1254A811274D3D7900D38B56 /* Encryptable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1254A810274D3D7900D38B56 /* XCRemoteSwiftPackageReference "encryptable" */;
+			productName = Encryptable;
+		};
+		1254A814274D3E0600D38B56 /* HTTPClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1254A813274D3E0600D38B56 /* XCRemoteSwiftPackageReference "HTTPClient" */;
+			productName = HTTPClient;
+		};
+		1254A817274D3E2100D38B56 /* ServiceContainer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1254A816274D3E2100D38B56 /* XCRemoteSwiftPackageReference "ServiceContainer" */;
+			productName = ServiceContainer;
+		};
+		1254A81A274D3E4100D38B56 /* Storable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1254A819274D3E4100D38B56 /* XCRemoteSwiftPackageReference "Storable" */;
+			productName = Storable;
+		};
 		12A533FF274AB7A00020B908 /* LoadableImageView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 12A533FE274AB7A00020B908 /* XCRemoteSwiftPackageReference "LoadableImage" */;
